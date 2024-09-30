@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Poppins;
+}
+
+nav {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(137, 231, 255);
+}
+
+nav .logo{
+    font-size: 1.5rem;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav ul li a:hover {
+    font-size: 1.1rem;
+    color: rgb(8, 123, 143);
+    border-radius: 10%;
+}
+
+/* logo */
+.logo {
+    font-size: 1.2rem;
+}
+.search  span{
+    cursor: pointer;
+}
+/* Account */
+.account {
+    position: relative;
+    cursor: pointer;
+}
+
+.account span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ac {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    color: #000;
+    background-color: #2df1ff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ac a {
+    display: block;
+    color: #000000;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.ac a:hover {
+    background-color: #2bd1ff;
+    border-radius: 10%;
+    
+}
+
+.account:hover .ac {
+    display: block;
+}
